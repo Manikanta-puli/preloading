@@ -1,0 +1,77 @@
+svg path:nth-child(1) {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(2) {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(3) {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(4) {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(5) {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(6) {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(7) {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(8) {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: animate 2s linear forwards infinite;
+}
+
+svg path:nth-child(9) {
+    stroke-dasharray: 1300;
+    stroke-dashoffset: 1300;
+    animation: animate 2s linear forwards infinite;
+}
+
+@keyframes animate {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 50%;
+        stroke-dasharray: 0;
+    }
+}
+
+body {
+    background-color: bisque;
+}
+
+.svg {
+    margin-top: 150px;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: chocolate;
+}
